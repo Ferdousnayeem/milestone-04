@@ -14,6 +14,19 @@ var sum = num1 + num2;
 
 console.log(sum); */
 
-arr = [3, 7, 10]
 
-console.log(arr[1]);
+// while loop
+
+var oddNumber = 0;
+while(oddNumber <= 10){
+    console.log(oddNumber);
+    oddNumber = oddNumber + 2
+}
+
+// for loop
+
+for (var oddNumber = 0; oddNumber < 10; oddNumber++){
+                                                                
+    console.log('counting');
+    console.log(oddNumber);
+}
