@@ -17,16 +17,34 @@ console.log(sum); */
 
 // while loop
 
-var oddNumber = 0;
+/* var oddNumber = 0;
 while(oddNumber <= 10){
     console.log(oddNumber);
     oddNumber = oddNumber + 2
-}
+} */
 
 // for loop
 
-for (var oddNumber = 0; oddNumber < 10; oddNumber++){
+/* for (var oddNumber = 0; oddNumber < 10; oddNumber++){
                                                                 
     console.log('counting');
     console.log(oddNumber);
+} */
+
+
+// simple version of for loop
+
+/* console.log('ki khobor? valo?');
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+} */
+
+
+var numbers = [45, 87, 89, 56, 23, 32, 25, 51];
+
+for (let i = 0; i < numbers.length; i++) {
+    
+    console.log(i);
+    
 }
