@@ -8,12 +8,10 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}//search.js",
             "skipFiles": [
                 "<node_internals>/**"
-            ]
+            ],
+            "program": "${workspaceFolder}\\Practice Problems\\search.js"
         }
     ]
 }
-
-

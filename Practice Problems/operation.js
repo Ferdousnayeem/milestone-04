@@ -131,8 +131,8 @@ var values = Object.values(mobile);
 
 
 
+/* 
 const color = 'blue';
-/*
 if (color === 'green') {
     console.log('this is green color');
 } 
@@ -157,7 +157,8 @@ else{
 
 
 // switch
-/* switch (color) {
+/* const color = 'blue';
+switch (color) {
     case 'black':
     console.log('this is black color');
     break;
