@@ -100,7 +100,7 @@ or,
 console.log(Object.keys(mobile)); */
 
 
-/* var mobile = {
+var mobile = {
     brand: 'Samsung',
     color: 'black',
     ram: '4GB',
@@ -117,17 +117,19 @@ var keys = Object.keys(mobile);
 var values = Object.values(mobile);
 // console.log(values);
 
-/* for (var i = 0; i < keys.length; i++) {
+for (var i = 0; i < keys.length; i++) {
     var properties = keys[i];
     var propertyValue = mobile[properties]
     console.log(properties, ':', propertyValue);
     
-} */
+}
 
-/* for(var propertyName in mobile){
+
+
+ for(var propertyName in mobile){
     var value = mobile[propertyName]
     console.log(propertyName, ':', value);
-} */
+}
 
 
 
