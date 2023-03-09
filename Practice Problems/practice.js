@@ -154,21 +154,20 @@ const numberInput = squareNumber(inputNumber); */
 এবং pepperoni print করবা। */
 
 const pizza = {
-    toppings: ['cheese', 'sauce', 'pepperoni'],
-    crust: 'deep dish',
-    serves: 2
+ toppings: ['cheese', 'sauce', 'pepperoni'],
+ crust: 'deep dish',
+ serves: 2
 }
 
+const item = pizza.toppings.indexOf('pepperoni');
+const itemConfirmed = pizza.toppings[item];
 
-function printItem(params) {
-    const item = pizza.toppings.indexOf(i);
-    const itemConfirmed = pizza.toppings[item];
-    return itemConfirmed;
-    // console.log('item is: ', itemConfirmed, 'and the index is:', item);
-}
+// console.log('item is: ', itemConfirmed, 'and the index is:', item);
 
-console.log(printItem('sauce'));
 
 for (let i = 1; i <= 10; i++) {
     // console.log(i, 'I am sorry!');
 }
+
+
+

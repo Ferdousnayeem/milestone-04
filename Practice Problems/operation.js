@@ -294,6 +294,26 @@ let userInput = solution('O');
 console.log(userInput); */
 
 
+/* function reverseName(nameOne, nameTwo){
+    let friendOneLength= nameOne.length;
+    let friendTwoLength= nameTwo.length;
+    let largeName = ""
+    if(friendOneLength > friendTwoLength){
+        largeName = nameOne;
+    }else{
+       largeName = nameTwo
+    }
+    let reversedString ="";
+    for(let i=largeName.length-1; i>=0; i--){
+        const element = largeName[i];
+        // console.log(element)
+        reversedString = reversedString+element;
+    }
+    return reversedString
+}
+
+let result = reverseName("John", "Alexis");
+console.log(result); */
 
 
 
