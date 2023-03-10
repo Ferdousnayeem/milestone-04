@@ -210,7 +210,7 @@ console.log('price: ', price); */
 
 //  [45, 65, 45, 98];
 
-const shoppingCart = [
+/* const shoppingCart = [
     { name: 'shoe', price: 1200 },
     { name: 'shirt', price: 2200 },
     { name: 'pant', price: 3700 },
@@ -228,7 +228,7 @@ function totalCost(products){
 }
 
 const expense = totalCost(shoppingCart);
-console.log('Total expense today:', expense);
+console.log('Total expense today:', expense); */
 
 
 //  [45, 65, 45, 98];
@@ -253,3 +253,47 @@ function totalCost(products){
 
 const expense = totalCost(shoppingCart);
 console.log('Total expense today:', expense); */
+
+
+
+/* function sum(i) {
+    if (i == 1) {
+        return 1;
+    }
+    return i + sum(i-1);
+}
+
+const result = sum(5);
+console.log(result); */
+
+
+
+/* 
+const products = [
+    {id: 1, name: 'xiaomi phone One night', price: 19000},
+    {id: 2, name: 'iphone', price: 19000},
+    {id: 3, name: 'mac book air', price: 19000},
+    {id: 4, name: 'lenovo yoga laptop 2025', price: 19000},
+    {id: 5, name: 'Dell inspiron laptop', price: 19000},
+    {id: 6, name: 'Samsung phone note 7', price: 19000},
+    {id: 7, name: 'Nokia old age phone gone', price: 19000},
+    {id: 8, name: 'Phone one', price: 19000},
+    {id: 9, name: 'MI chip not cheap LapTop', price: 19000},
+]
+
+function matchedProducts(products, search) {
+    const matched = [];
+    for (const product of products) {
+        if (product.name.toLowerCase().includes(search.toLowerCase())) {
+            matched.push(product);
+        }
+    }
+    return matched
+}
+
+const result = matchedProducts(products, 'laptop');
+console.log(result); */
+
+
+console.log("123" + 123);
+
